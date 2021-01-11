@@ -92,14 +92,16 @@ h1 {
  #faq-container {
     width:350px;
     left:220px;
-    top:0;
+    top:10%;
     margin-left: 0;
     }
 }
 
 @media (min-width: 1200px){
  h1 {
-     text-align: left;
+     position:relative;
+     left: 16px;
+    text-align: left;
  }
 }
 
