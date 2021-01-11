@@ -68,9 +68,9 @@ h1 {
         display:flex;
         width: 920px;
         top:50%;
-        background-image: url("images/illustration-woman-online-desktop.svg"), url(images/bg-pattern-desktop.svg);
-        background-repeat: no-repeat;
-        background-position: -10%;
+        background-image: url("images/illustration-woman-online-desktop.svg"), url("images/bg-pattern-desktop.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: -10%, -545px -260px;
         justify-content: center;
     }
 }
