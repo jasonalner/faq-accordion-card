@@ -51,12 +51,14 @@ h1 {
 #faq-container {
     position: relative;
     top:-140px;
+    overflow:hidden;
 }
 
 .question-container {
     border-bottom: 1px solid  lightgray;
     padding:12px;
     width:auto;
+    overflow:hidden;
 }
 
 .arrow {
@@ -66,12 +68,14 @@ h1 {
 @media (min-width: 1200px){
    .flex-container {
         display:flex;
+overflow-x: hidden;
         width: 920px;
         top:50%;
         background-image: url("images/illustration-woman-online-desktop.svg"), url("images/bg-pattern-desktop.svg");
         background-repeat: no-repeat, no-repeat;
         background-position: -10%, -545px -260px;
         justify-content: center;
+        
     }
 }
 
@@ -94,6 +98,7 @@ h1 {
     left:220px;
     top:10%;
     margin-left: 0;
+    overflow: hidden;
     }
 }
 
